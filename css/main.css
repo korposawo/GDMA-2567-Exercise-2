@@ -87,13 +87,9 @@ figure {
 }
 
 /* TO BE DELETED LATER*/
-#bg-flower{
-	background-image: url("../img/plant.jpg");
-	background-size: cover;
-	height: 300px;
-	background-origin: content-box;
-	background-repeat: no-repeat;
-	
+#bg-flower {
+  background: url("../img/plant.jpg") no-repeat 0 0/cover content-box content-box;
+  height: 300px;
 }
 
 .wrapper{
